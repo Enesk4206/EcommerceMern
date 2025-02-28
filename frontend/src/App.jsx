@@ -2,20 +2,25 @@ import React from 'react'
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import UserLayout from './components/Layout/UserLayout'
 import Home from './pages/Home'
-import {Toaster} from "sonner"
+import { Toaster } from "sonner"
+import Login from './pages/Login'
 
 const App = () => {
   return (
-    <BrowserRouter future={{v7_startTransition :true, v7_relativeSplatPath :true}}>
-      <Toaster position="top-right"/>
-        <Routes>
+    <BrowserRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
+      <Toaster position="top-right" />
+      <Routes>
 
-          <Route path='/' element={<UserLayout />}>
-            <Route index element={<Home />} />
-          </Route>
+        <Route path='/' element={<UserLayout />}>
+          
+          <Route index element={<Home />} />
 
-          <Route path=''> {/* Admin Layout */}</Route>
-        </Routes>
+          <Route path='login' element={<Login />} />
+          
+        </Route>
+
+        <Route path=''> {/* Admin Layout */}</Route>
+      </Routes>
 
     </BrowserRouter>
   )
