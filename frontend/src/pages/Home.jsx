@@ -68,7 +68,7 @@ const Home = () => {
       {/* Best Seller */}
       <h2 className='text-3xl text-center font-bold mb-4'>Best Seller</h2>
       <ProductDetails />
-      <div className='md:max-w-7xl sm:max-w-3xl mx-auto'>
+      <div className='md:max-w-7xl max-3xl mx-auto'>
         <h2 className='text-3xl text-center font-bold mb-4'>Top Wears for Women</h2>
         <ProductGrid products={placeholdProducts} />
       </div>

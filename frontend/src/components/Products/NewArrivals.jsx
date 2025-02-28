@@ -145,7 +145,7 @@ const NewArrivals = () => {
     }, [])
     return (
         <section className='py-16 px-4 lg:px-0'>
-            <div className='md:max-w-7xl sm:max-w-3xl mx-auto text-center mb-10 relative'>
+            <div className='md:max-w-7xl max-3xl mx-auto text-center mb-10 relative'>
                 <h2 className='text-3xl font-bold mb-4'>Explore New Arrivals</h2>
                 <p className='text-lg text-gray-600 mb-8'>
                     Discover the latest styles straight off the runway, freshly added to keep your wardrobe on the cutting edge of fashion.

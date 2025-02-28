@@ -3,7 +3,7 @@ import {HiArrowPathRoundedSquare, HiOutlineCreditCard, HiShoppingBag} from "reac
 const FeaturedSection = () => {
     return (
         <section className='py-16 px-4 bg-white'>
-            <div className='md:max-w-7xl sm:max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center'>
+            <div className='md:max-w-7xl max-3xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center'>
                 {/* Feature 1  */}
                 <div className='flex flex-col items-center'>
                     <div className='p-4  rounded-full mb-4'>

@@ -105,7 +105,7 @@ const Footer = () => {
             </div>
 
             {/*Footer Bottom */}
-            <div className='md:max-w-7xl sm:max-w-3xl mx-auto mt-12 px-4 lg:px-0 border-t border-gray-200 pt-6'>
+            <div className='container mx-auto mt-12 px-4 lg:px-0 border-t border-gray-200 pt-6'>
                 <p className='text-gray-500 text-sm tracking-tighter text-center'>
                     C, 2025 created by Enes Kaya. All Rights Reserved.
                 </p>

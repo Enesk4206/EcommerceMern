@@ -19,7 +19,7 @@ const Navbar = () => {
     }
     return (
         <>
-            <nav className=' md:max-w-7xl sm:max-w-3xl mx-auto flex items-center justify-between py-4  px-6'>
+            <nav className='md:max-w-7xl max-w-3xl mx-auto flex items-center justify-between py-4  px-6'>
                 {/* left logo */}
                 <div>
                     <Link to={"/"} className='text-2xl font-medium'>
